@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+.card_left{
+	flex: 0 1 430px;
+
+}
+.card_right{
+	flex:1;
+
+}
+.wrapper{
+	margin: 100px auto 0 auto;
+}
+
+
+.home_links{
+	display: inline-block;
+}
+
+
+.home_icons{
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	padding: 10px 0;
+	box-sizing:border-box;
+	background: #2F4FFE;
+	border-radius:60px;
+	margin-right: 20px;
+	text-align:center;
+	vertical-align:top;
+	transition: background-color 0.5s ease-in-out;
+}
+
+#menu_ul a:hover > .home_icons{
+	background: #00B0FF;
+}
+
+
+#menu_ul{
+	margin-top: 30px;
+
+}
+
+#menu_ul li{
+		margin: 20px 0;
+}
